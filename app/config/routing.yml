@@ -1,0 +1,17 @@
+admin:
+    resource: "@AdminBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+frontend:
+    resource: "@FrontendBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+#frontend_index:
+#    path: "/fronten"
+#    defaults: {_controller:FrontendBundle:Default:index}
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
